@@ -1,0 +1,287 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* .container {
+    max-height: 100%;
+    width: 100%;
+} */
+
+.nav-item {
+  position: relative;
+}
+
+/* Dropdown UL */
+.v_nav {
+  position: absolute;
+  top: 100%;
+  left: 0;
+
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 220px;
+
+  display: none;
+  z-index: 9999;
+}
+
+/* Dropdown links */
+.v_nav li a {
+  display: block;
+  padding: 10px 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.v_nav li a:hover {
+  background-color: #222;
+}
+.nav-item:hover{
+    background-color: #222;
+}
+
+/* SHOW dropdown */
+.nav-item:hover .v_nav {
+  display: block;
+}
+
+
+
+
+
+
+.navbar-nav {
+    overflow: visible;
+}
+
+.description {
+    margin-top: 40px;
+    padding: 0px 30px;
+}
+
+.portfolio {
+    padding-left: 30px;
+    margin: 30px 0px;
+}
+
+.box-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    /* padding: 0px 30px; */
+    margin-top: 40px;
+
+}
+
+.box {
+
+    width: 20%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.box p {
+    line-height: 1.6;
+}
+
+.icon-circle {
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background-color: #f3f3f3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    transition: transform 0.6s ease;
+}
+
+section {
+    padding: 0px 30px;
+}
+
+.card_section img {
+    margin-right: 5pxpx;
+    padding: 0px;
+}
+
+.card h4 {
+    margin: 20px 0px;
+}
+
+.icon-circle i {
+    font-size: 30px;
+    color: #e74c3c;
+}
+
+.box:hover .icon-circle {
+    transform: rotate(360deg);
+}
+
+.blog {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    /* justify-content: center;
+            align-items: center; */
+    flex-direction: row;
+    margin-top: 40px;
+}
+
+.blog_left {
+    width: 25%;
+}
+
+.blog_left h4 {
+    margin: 20px 0px;
+}
+
+.blog_left p {
+    text-align: left;
+
+}
+
+
+.blog-right-wrapper {
+    width: 75%;
+    margin-left: auto;
+    overflow: hidden;
+}
+
+.blog_right {
+    display: flex;
+    flex-wrap: nowrap;
+    /* ❌ NEVER wrap */
+    gap: 10px;
+}
+
+.blog_card {
+
+
+    min-width: 300px;
+    /* fixed card width */
+    /* height: 220px; */
+
+    /* animation-name: moves;
+            animation-duration: 10s;
+            animation-timing-function:linear;
+            animation-iteration-count:2;  */
+    animation: moves 6s ease forwards;
+    animation-iteration-count: infinite;
+
+
+
+}
+
+@keyframes moves {
+    from {
+        transform: translateX(0px);
+    }
+
+    to {
+        transform: translateX(-300px);
+    }
+
+}
+
+.blog_card a,
+p {
+    margin-top: 10px;
+}
+
+.footer-title {
+    color: #9f9f9f;
+    font-size: 15px;
+    /* position: relative; */
+    padding-bottom: 8px;
+}
+
+.footer-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+.footer-list li {
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+
+
+
+/* Tablet */
+@media (max-width: 768px) {
+    .box {
+        width: 45%;
+    }
+
+}
+
+/* Mobile */
+@media (max-width: 576px) {
+    .box {
+        width: 100%;
+
+    }
+
+    .card_section img {
+        margin-bottom: 10px;
+    }
+
+    .blog {
+        flex-direction: column;
+    }
+
+    .blog_left,
+    .blog-right-wrapper {
+        width: 100%;
+    }
+    .nav-item:hover .v_nav {
+  display: block;
+}
+@media (max-width: 991px) {
+
+  /* navbar items should stack */
+  .nav-item {
+    position: static;
+  }
+
+  /* dropdown becomes normal list */
+  .v_nav {
+    position: static;
+    display: none;
+    width: 100%;
+    background-color: #212529;
+  }
+
+  /* show dropdown when class 'show' is added */
+  .nav-item.show .v_nav {
+    display: block;
+  }
+
+}
+
+
+
+}
+
+.form-control {
+    width: 100%;
+}
+
+
+/* all section stylesheet */
+
+/* service */
+.service-bg-img{
+    background-image: url("images/service.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    color: white;
+}

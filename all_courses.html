@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- bootstrap cdn -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <!-- javascript cdn -->
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+        crossorigin="anonymous"></script>
+
+    <!-- font_awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- stylesheet link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark">
+        <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="all_courses.html">ALL COURSES</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="service.html">SERVICE</a>
+                     <ul class="v_nav bg-dark">
+                            <li class="v_navitem"><a href="#">Internship Pragramme</a></li>
+                            <li class="v_navitem"><a href="#">Placement Assistance</a></li>
+                        </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="softwareTraining.html">SOFTWARE TRAINING</a>
+                    <uL class="v_nav bg-dark">
+                            <li class="v_navitem"><a href="online_training.html">online training</a></li>
+                     </uL>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">INTERNSHIP</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CAREERS</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">NEW BATCHES</a>
+                </li>
+
+
+            </ul>
+
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 mt-4">
+                <h4>All Courses</h4>
+                <!-- banner -->
+                <img src="images/banner_allcourses.jpeg" class="img-fluid my-3" alt="banner">
+
+                <!-- search -->
+                <div class="text-end mb-3">
+                    search:
+                    <input type="text">
+                </div>
+
+                <!-- table -->
+                <table class="table table-bordered table-striped table-hover">
+                    <thead table-primary>
+                        <tr>
+                            <th>Course Name</th>
+                            <th>Course Content</th>
+                        </tr>
+
+                    </thead>
+
+                    <tbody>
+                        <tr>
+                            <td>Data Science</td>
+                            <td><a href="#data-science" class="text-danger">View Course</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>AWS</td>
+                            <td><a href="#" class="text-danger">View Course</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Python</td>
+                            <td><a href="#" class="text-danger">View Course</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Core Java</td>
+                            <td><a href="#" class="text-danger">View Course</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Advance Java</td>
+                            <td><a href="#" class="text-danger">View Course</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Springboot</td>
+                            <td><a href="#" class="text-danger">View Course</a></td>
+                        </tr>
+
+                        <tr>
+                            <td>Sql Server</td>
+                            <td><a href="#" class="text-danger">View Course</a></td>
+                        </tr>
+                        <tr>
+                            <td>HTML/JavaScript</td>
+                            <td><a href="#" class="text-danger">View Course</a></td>
+                        </tr>
+                        <tr>
+                            <td>Jquery</td>
+                            <td><a href="#" class="text-danger">View Course</a></td>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- form right section-->
+            <div class="col-lg-4 mb-4 mt-4">
+                <h4>Contact Us</h4>
+                <form action="submit.html">
+                    <div class="mb-3">
+                        <label for="name">Name*</label>
+                        <input type="text" class="form-control" id="name">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="email">Email ID *</label>
+                        <input type="email" class="form-control" id="email">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="contact">Contact No *</label>
+                        <input type="text" class="form-control" id="contact">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="training">Mode of Training *</label>
+                        <select class="form-select" id="training">
+                            <option>Online Training</option>
+                            <option>Classroom Training</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="location">Location</label>
+                        <input type="text" class="form-control" id="location">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="course">Course *</label>
+                        <input type="text" class="form-control" id="course">
+                    </div>
+
+                    <button class="btn btn-danger w-50 center">SUBMIT</button>
+
+
+                </form>
+            </div>
+
+        </div>
+
+
+    </div>
+
+    <!-- left course section -->
+    <div class="cources-section container">
+        <div class="row">
+            <div class="col-lg-8">
+                <!-- data science training -->
+                <h3 class="mt-5 mb-5" id="data-science">Data Science training overview</h3>
+
+                <p>Data science Training by Expert. Data science it is a software here distributing and processing the
+                    large set of data into the cluster of computers. This Course is designed to Master yourself in the
+                    Data Science Techniques and Upgrade your skill set to the next level to sustain your career in ever
+                    changing the software Industry.This Course covers from the basics of Data Science to Big Data
+                    Hadoop, Python, Apache Spark etc</p>
+
+                <h5 class="mt-4 mb-4">Objectives of the Course</h5>
+                <h5 class="mb-4">Pre-Requites of the Course</h5>
+                <h5 class="mb-4">Course Duration</h5>
+                <h5 class="mb-4">Data Science Course Content</h5>
+                <h5 class="mb-4">Introduction to Data Science</h5>
+
+                <ul class="ml-5">
+                    <li>Need for Data Scientists</li>
+                    <li>Foundation of Data Science</li>
+                    <li>What is Business Intelligence</li>
+                    <li>What is Data Analysis, Data Mining, and Machine Learning</li>
+                    <li>Analytics vs Data Science</li>
+                    <li>Value Chain</li>
+                    <li>Types of Analytics</li>
+                    <li>Lifecycle Probability</li>
+                    <li>Analytics Project Lifecycle</li>
+                </ul>
+
+                <h5 class="mt-4 mb-4">Data</h5>
+                <ul class="ml-5">
+                    <li>Basis of Data Categorization</li>
+                    <li>Types of Data</li>
+                    <li>Data Collection Types</li>
+                    <li>Forms of Data and Sources</li>
+                    <li>Data Quality, Changes and Data Quality Issues, Quality Story</li>
+                    <li>What is Data Architecture</li>
+                    <li>Components of Data Architecture</li>
+                    <li>OLTP vs OLAP</li>
+                    <li>How is Data Stored?</li>
+                </ul>
+
+                <h5 class="mt-4 mb-4">Algorithm</h5>
+                <ul class="ml-5">
+                    <li>General Approach to kNN</li>
+                    <li>Building the Classifier from Scratch</li>
+                    <li>Testing the Classifier</li>
+                    <li>Measuring the Performance of the Classifier</li>
+                    <li>Clustering Problem</li>
+                    <li>What is K-Means Clustering</li>
+                    <li>Clustering with k-Means in Python and an</li>
+                </ul>
+
+                <h5 class="mt-4 mb-4">Data Visualization in R</h5>
+                <ul class="ml-5">
+                    <li>Storytelling with Data</li>
+                    <li>Principle tenets</li>
+                    <li>Elements of Data Visualization</li>
+                    <li>Infographics vs Data Visualization</li>
+                    <li>Data Visualization & Graphical functions in R</li>
+                    <li>Plotting Graphs</li>
+                    <li>Customizing Graphical Parameters to improvise the plots</li>
+                    <li>Various GUIs</li>
+                    <li>Spatial Analysis</li>
+                    <li>Other Visualization concepts</li>
+                </ul>
+            </div>
+
+
+
+            <div class="col-lg-8 mt-5 mb-5">
+                <!-- aws training overview -->
+                <h3 class="mt-5 mb-5">Aws Training Overview</h3>
+
+                <p>
+                    This Instructor-led comprehensive AWS Training ( AWS Solutions Architect – Associate and Sysops
+                    Administrator ) designed to show how to setup and run Cloud Services in Amazon Web Services (AWS)
+                    all the way through to IaaS with hands-on experience on AWS Public cloud.
+
+                    This course provides a strong foundation for implementing and designing cloud services.
+                </p>
+
+                <h5 class="mt-4 mb-4">AWS Training Objectives</h5>
+                <ul class="ml-5">
+                    <li>Compute (EC2)</li>
+                    <li>Storage (S3, EBS, EFS, Storage Gateway and Snowball)</li>
+                    <li>Database (RDS, DMS and Redshift)</li>
+                    <li>Network and Content Delivery (Route 53, VPC and Cloud Front)</li>
+                    <li>Management Tools (Cloud Watch, Cloud Formation and Cloud Trail)</li>
+                    <li>Security & Identity Compliance (IAM, Trusted Advisor, Config andInspector)</li>
+                    <li>Application Services (SWF and Elastic Transcoder)</li>
+                    <li>Messaging (SNS, SQS and SES)</li>
+                    <li>Developer tools (Code Commit, Code Build, Code Deploy and Code Pipeline)</li>
+                </ul>
+
+                <h5 class="mt-4 mb-4">AWS Training Prerequisites</h5>
+                <ul class="ml-5">
+                    <li>Absolute Beginners. No prior AWS experience is necessary</li>
+                    <li>Previous System Administration/ Development knowledge would be added advantage</li>
+                    <li>System Administrators Interested in Deploying Applications on AWS
+                    </li>
+                    <li>Cloud Computing Enthusiasts</li>
+                </ul>
+
+                <h5 class="mt-4 mb-4">AWS System Requirements </h5>
+                <ul class="ml-5">
+                    <li>Need to set up an AWS Account</li>
+                    <li>(Most of the Services comes with AWS free tier eligibility)</li>
+                    <li>Windows: Putty, Putty KeyGen and Web Browser with Internet connectivity.</li>
+                    <li>Linux/Mac : Default Terminal</li>
+                </ul>
+
+                <h5 class="mt-4 mb-4">AWS Course Duration</h5>
+                <ul class="ml-5 mb-5">
+                    <li>35 Days , Daily One Hour</li>
+                </ul>
+
+                <P class="mt-5 mb-5"></P>
+                <h5 class="mt-5 mb-4">Aws course content</h5>
+                <ul class="ml-5">
+                    <li>Introduction to cloud computing</li>
+                    <li>Essential Characteristics of Cloud Computing</li>
+                    <li>Service Models in Cloud computing</li>
+                    <li>Deployment models in Cloud Computing</li>
+                    <li>Introduction to AWS</li>
+                    <li>AWS Account creation &free tier limitations overview</li>
+                </ul>
+
+                <h5 class="mt-4 mb-4">Identity Access Management</h5>
+                <ul class="ml-5">
+                    <li>Root Account Vs IAM user</li>
+                    <li>Multi-FactorAuthentication for Users</li>
+                    <li>IAM Password Policies</li>
+                    <li>Creating Customer Managed Policies.</li>
+                    <li>Groups</li>
+                    <li>Roles</li>
+                </ul>
+
+                <h5 class="mt-4 mb-4">Glacier Storage</h5>
+                <ul class="ml-5">
+                    <li>What is Simple Storage Service (S3)</li>
+                    <li>Storage Classes</li>
+                    <li>Versioning</li>
+                    <li>Cross-region replication</li>
+                    <li>Life Cycle Management</li>
+                    <li>Security & Encryption</li>
+                    <li>Static Webhosting with S3 bucket</li>
+                    <li>Events configuration on S3 buckets</li>
+                    <li>Enabling cross-account access for S3</li>
+                    <li>S3 Data management and backup using 3rd Party applications.</li>
+                    <li>S3 Cross-Account Access and Pre-Signed URLs</li>
+                    <li>Storage Gateway</li>
+                </ul>
+
+                <p class="mt-4 mb-4">Linux Introduction</p>
+                <ul class="ml-5">
+                    <li>Basics of Linux for AWS</li>
+                    <li>Linux Installation and Basic commands overview</li>
+                    <li>Web Server and Services Configurations</li>
+                </ul>
+
+                <h5 class="mt-4 mb-4">Compute</h5>
+                <ul class="ml-5">
+                    <li>EC2 Instance Launch Wizard</li>
+                    <li>EC2 Instance Types</li>
+                    <li>Generating custom Public Key and Private keys for EC2</li>
+                    <li>Security groups</li>
+                    <li>Volumes and Snapshots</li>
+                    <li>Creating customized Amazon Machine Images</li>
+                    <li>RAID Overview and RAID Configurations</li>
+                    <li>User Data and Metadata</li>
+                    <li>ElasticLoad Balancers & Health Checks</li>
+                    <li>Auto Scaling Groups</li>
+                    <li>CloudWatch</li>
+                    <li>Creating Billing Alarm and EC2 instance alarms.</li>
+                    <li>AWS CLI&EC2 Roles</li>
+                    <li>Elastic File System</li>
+                    <li>AWS Lightsail</li>
+                    <li>Elastic Beanstalk</li>
+                    <li>Placement Groups</li>
+                </ul>
+
+                <h5 class="mt-4 mb-4">Rout 53</h5>
+                <ul class="ml-5">
+                    <li>DNS Records overview</li>
+                    <li>Hosting sample Website and configuring Policies</li>
+                    <li>Simple Routing Policy</li>
+                    <li>Latency Routing Policy</li>
+                    <li>Failover Routing Policy</li>
+                    <li>Weighted Routing Policy</li>
+                    <li>Geolocation Routing Policy.</li>
+                </ul>
+          </div>
+
+
+        </div>
+
+
+
+    </div>
+
+</body>
+
+</html>
