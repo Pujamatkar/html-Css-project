@@ -285,3 +285,22 @@ p {
     min-height: 100vh;
     color: white;
 }
+
+/* online training */
+.card {
+    height: 500px;         /* fixed height */
+   
+}
+.card-body {
+    display: flex;
+    flex-direction: column;
+}
+
+.card-body .btn {
+    margin-top: auto;
+}
+
+.card-img-top {
+    height: 300px;          /* image height */
+    object-fit: cover;      /* prevents image stretching */
+}
