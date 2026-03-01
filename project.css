@@ -1,0 +1,31 @@
+.mycard{
+      border-radius: 15px;
+   transition: transform 0.2s ease;
+   
+}
+.mycard:hover{
+    transform: translateY(-10px);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  
+}
+  body{
+    padding-top: 100px;
+  }
+   
+
+
+.mynav{
+      position: fixed;
+  top: 10px; /* if you want 10px down */
+  width: 100%;
+  z-index: 1050;
+}
+
+.container-fluid{
+    background: linear-gradient(to bottom, #e6f3f8, #a8d2e3);
+}
+.gradient-text{
+      background: linear-gradient(to right, rgba(0, 0, 255, 0.886),rgb(0, 170, 255));
+    -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+}
